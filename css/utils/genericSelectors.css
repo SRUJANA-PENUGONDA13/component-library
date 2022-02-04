@@ -33,7 +33,7 @@ p {
   background-color: var(--primary--color);
   color: var(--text--primary--color);
   border-radius: 20px;
-  width: 140px;
+  width: 9rem;
 }
 .text-decoration-none {
   text-decoration: none;
