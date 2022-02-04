@@ -18,9 +18,13 @@
   position: absolute;
   left: 200px;
 }
+
 .ui-intro-content {
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+.ui-content {
+  gap: 2rem;
 }
 .ui-sideNav-logo {
   border: 1px solid;

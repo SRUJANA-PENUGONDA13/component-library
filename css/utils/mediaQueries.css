@@ -1,2 +1,14 @@
+@media only screen and (max-width: 600px) {
+  .ui-component,
+  .ui-intro-content {
+    padding-top: 3rem;
+  }
+  .ui-intro-content {
+    padding-left: 2rem;
+  }
+}
 @media only screen and (min-width: 600px) {
+  .ui-sideNav-icon {
+    display: none;
+  }
 }

@@ -24,7 +24,7 @@
           ></span
         >
         <i
-          class="fas fa-times-circle ui-sideNav-icon text-medium"
+          class="ui-sideNav-icon fas fa-times-circle text-medium"
           aria-hidden="true"
           onClick="closeSideNav()"
         ></i>
@@ -114,7 +114,7 @@
         </div>
       </div>
     </div>
-    <div class="ui-container flex-col">
+    <div class="ui-container">
       <div class="ui-topNav flex-dir-row heading-large gutter-medium">
         <i
           class="fas fa-bars ui-menu-icon text-color-white"
@@ -123,11 +123,30 @@
         <div class="ui-title font-effect-fire-animation">Cache UI</div>
         <div class="ui-icons flex-align-right text-medium text-color-white">
           <i class="fab fa-github"></i>
-          <span>SourceCode</span>
+          <span
+            ><a
+              href="https://github.com/SRUJANA-PENUGONDA13/component-library"
+              target="_blank"
+              class="text-color-white text-decoration-none"
+              >Source Code</a
+            ></span
+          >
         </div>
       </div>
-      <div class="ui-body">
-        <section id="ui-usage-content">Usage Component</section>
+      <div class="ui-body left-margin-section">
+        <section class="ui-component flex-dir-col gutter-medium">
+          <h3 class="text-large">Usage</h3>
+          <p class="text-medium">
+            To use these components in your application import the following css
+            link in the head tag of your HTML document or in your CSS file.
+          </p>
+          <iframe
+            class="code-snippet gutter-medium"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2540import%2520url%28%27https%253A%252F%252Fcache-ui.netlify.app%252Fcss%252Fstyle.css%27%29%253B%250A%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fcache-ui.netlify.app%252Fcss%252Fstyle.css%2522%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </section>
       </div>
     </div>
     <script src="../js/script.js"></script>

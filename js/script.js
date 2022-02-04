@@ -6,5 +6,5 @@ function openSideNav() {
 function closeSideNav() {
   document.querySelector(".ui-sideNav").style.visibility = "hidden";
   document.querySelector(".ui-sideNav").style.width = "0px";
-  document.querySelector(".ui-body").style.marginLeft = "0px";
+  document.querySelector(".ui-body").style.marginLeft = "2rem";
 }
