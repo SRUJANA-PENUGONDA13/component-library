@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik+Beastly&effect=fire-animation");
+
+/* Generic Selectors */
+@import url("./utils/genericSelectors.css");
+
+/* Home Page */
+@import url("./home/home.css");
+
+/* Vars */
+@import url("./utils/vars.css");
+
+/* TypoGraphy */
+@import url("./utils/typoGraphy.css");
+
+/* Media Queries */
+@import url("./utils/mediaQueries.css");

@@ -1,0 +1,41 @@
+.ui-topNav {
+  position: fixed;
+  width: 100%;
+  background-color: var(--primary--color);
+  gap: 3rem;
+}
+.ui-body {
+  padding-top: 100px;
+}
+
+.ui-sideNav {
+  visibility: hidden;
+  z-index: 2;
+  position: fixed;
+  top: 0px;
+  height: 100%;
+  background-color: var(--secondary--color);
+}
+.ui-sideNav-icon {
+  position: absolute;
+  left: 200px;
+}
+.ui-intro-content {
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.ui-sideNav-logo {
+  border: 1px solid;
+  height: 20px;
+  width: 20px;
+  color: var(--primary--color);
+  font-weight: 800;
+  background-color: #f2f2f2;
+}
+.ui-sideNav-items {
+  margin-top: 1.5rem;
+}
+section {
+  padding-top: 8rem;
+  height: 100vh;
+}

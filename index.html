@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Cache UI</title>
+  </head>
+  <body onload="makeAppResponsive()">
+    <div class="ui-sideNav gutter-medium">
+      <div class="ui-sideNav-header text-medium text-color-white">
+        <span class="ui-sideNav-logo gutter-small">C</span>
+        <span class="gutter-medium">UI Docs</span>
+        <i
+          class="fas fa-times-circle ui-sideNav-icon text-medium"
+          aria-hidden="true"
+          onClick="closeSideNav()"
+        ></i>
+      </div>
+      <div class="ui-sideNav-items text-medium text-color-white gutter-medium">
+        <div class="ui-sideNav-item"><h4>Getting Started</h4></div>
+        <div class="ui-sideNav-item">
+          <a
+            href="#ui-usage-content"
+            id="usage-link"
+            class="text-color-white gutter-small text-decoration-none"
+            >Usage</a
+          >
+        </div>
+        <div class="ui-sideNav-item"><h4>Components</h4></div>
+        <div class="ui-sideNav-item">
+          <a href="#ui-avatar-component"id="avatar-link" class="text-color-white gutter-small text-decoration-none"
+            >Avatar</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a href="#ui-alert-component" id="alert-link" class="text-color-white gutter-small text-decoration-none"
+            >Alert</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a href="#ui-badge-component" id="badge-link" class="text-color-white gutter-small text-decoration-none"
+            >Badge</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a href="#ui-button-component" id="button-link" class="text-color-white gutter-small text-decoration-none"
+            >Button</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a href="#ui-card-component" id="card-link" class="text-color-white gutter-small text-decoration-none"
+            >Card</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a href="#ui-image-component" id="image-link" class="text-color-white gutter-small text-decoration-none"
+            >Image</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a href="#ui-input-component" id="input-link" class="text-color-white gutter-small text-decoration-none"
+            >Input</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a href="#" class="text-color-white gutter-small text-decoration-none"
+            >List</a
+          >
+        </div>
+        <div class="ui__sideNav__item">
+          <a href="#" class="text-color-white gutter-small text-decoration-none"
+            >Navigation</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a href="#" class="text-color-white gutter-small text-decoration-none"
+            >Toast</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="ui-container flex-col">
+    <div class="ui-topNav flex-dir-row heading-large gutter-medium">
+        <i
+          class="fas fa-bars ui-menu-icon text-color-white"
+          onclick="openSideNav()"
+        ></i>
+        <div class="ui-title font-effect-fire-animation">Cache UI</div>
+        <div class="ui-icons flex-align-right text-medium text-color-white">
+          <i class="fab fa-github"></i>
+          <span>SourceCode</span>
+        </div> 
+    </div>
+    <div class="ui-body">
+      <section id="ui-intro-content" class="ui-intro-content flex-dir-row gutter-large">
+        <div class="ui-content">
+          <h2 class="text-large">
+          Develop swift, <br />responsive<br />apps with<br /> Cache UI
+          </h2>
+          <p class="text-medium">
+          It has well structured components and <br />documentation that helps
+          developers to develop <br />applications with less time and more
+          quality.
+          </p>
+          <a href="#ui-usage-content" class="link-basic-btn gutter-small text-medium"
+          onclick="openSideNav()">Get Started</a
+          >
+        </div>
+        <div class="ui-media">
+          <img src="assets/happy-news.svg"></img>
+        </div>
+      </section>
+      <section id="ui-usage-content">
+        Usage Component
+        <!-- <embed type="text/html" src="./src/usage.html" /> -->
+      </section>
+      <section id="ui-avatar-component">
+        Avatar Componet
+        <!-- <embed type="text/html" src="./src/components/avatar.html" /> -->
+      </section>
+      <section id="ui-alert-component">
+        Alert Componemt
+        <!-- <embed type="text/html" src="./src/components/alert.html" /> -->
+      </section>
+      <section id="ui-badge-component">
+        Badge Component
+        <!-- <embed type="text/html" src="./src/components/badge.html" /> -->
+      </section>
+      <section id="ui-button-component">
+        Button Componemt
+        <!-- <embed type="text/html" src="./src/components/button.html" /> -->
+      </section>
+      <section id="ui-card-component">
+        Card Component
+        <!-- <embed type="text/html" src="./src/components/card.html" /> -->
+      </section>
+      <section id="ui-image-component">
+        Image Component
+        <!-- <embed type="text/html" src="./src/components/image.html" /> -->
+      </section>
+      <section id="ui-input-component">
+        input Component
+        <!-- <embed type="text/html" src="./src/components/input.html" /> -->
+      </section>
+    </div>
+  </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
