@@ -7,9 +7,7 @@
 .ui-body {
   padding-top: 100px;
 }
-
 .ui-sideNav {
-  visibility: hidden;
   z-index: 2;
   position: fixed;
   top: 0px;
@@ -36,6 +34,5 @@
   margin-top: 1.5rem;
 }
 section {
-  padding-top: 8rem;
-  height: 100vh;
+  padding-top: 3rem;
 }

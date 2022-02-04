@@ -37,3 +37,9 @@ h4 {
 .left-margin-section {
   margin-left: 250px;
 }
+.display-visible {
+  visibility: visible;
+}
+.display-hidden {
+  visibility: hidden;
+}

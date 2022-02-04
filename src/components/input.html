@@ -10,15 +10,21 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../../css/style.css" />
 
     <title>Cache UI</title>
   </head>
   <body>
-    <div class="ui-sideNav gutter-medium display-hidden">
+    <div class="ui-sideNav gutter-medium">
       <div class="ui-sideNav-header text-medium text-color-white">
         <span class="ui-sideNav-logo gutter-small">C</span>
-        <span class="gutter-medium"><a href="./index.html" class="text-color-white text-decoration-none">UI Docs</a></span>
+        <span class="gutter-medium"
+          ><a
+            href="../../index.html"
+            class="text-color-white text-decoration-none"
+            >UI Docs</a
+          ></span
+        >
         <i
           class="fas fa-times-circle ui-sideNav-icon text-medium"
           aria-hidden="true"
@@ -29,7 +35,7 @@
         <div class="ui-sideNav-item"><h4>Getting Started</h4></div>
         <div class="ui-sideNav-item">
           <a
-            href="./src/usage.html"
+            href="../../src/usage.html"
             id="usage-link"
             class="text-color-white gutter-small text-decoration-none"
             >Usage</a
@@ -37,37 +43,58 @@
         </div>
         <div class="ui-sideNav-item"><h4>Components</h4></div>
         <div class="ui-sideNav-item">
-          <a href="./src/components/avatar.html"id="avatar-link" class="text-color-white gutter-small text-decoration-none"
+          <a
+            href="./avatar.html"
+            id="avatar-link"
+            class="text-color-white gutter-small text-decoration-none"
             >Avatar</a
           >
         </div>
         <div class="ui-sideNav-item">
-          <a href="./src/components/alert.html" id="alert-link" class="text-color-white gutter-small text-decoration-none"
+          <a
+            href="./alert.html"
+            id="alert-link"
+            class="text-color-white gutter-small text-decoration-none"
             >Alert</a
           >
         </div>
         <div class="ui-sideNav-item">
-          <a href="./src/components/badge.html" id="badge-link" class="text-color-white gutter-small text-decoration-none"
+          <a
+            href="./badge.html"
+            id="badge-link"
+            class="text-color-white gutter-small text-decoration-none"
             >Badge</a
           >
         </div>
         <div class="ui-sideNav-item">
-          <a href="./src/components/button.html" id="button-link" class="text-color-white gutter-small text-decoration-none"
+          <a
+            href="./button.html"
+            id="button-link"
+            class="text-color-white gutter-small text-decoration-none"
             >Button</a
           >
         </div>
         <div class="ui-sideNav-item">
-          <a href="./src/components/card.html" id="card-link" class="text-color-white gutter-small text-decoration-none"
+          <a
+            href="./card.html"
+            id="card-link"
+            class="text-color-white gutter-small text-decoration-none"
             >Card</a
           >
         </div>
         <div class="ui-sideNav-item">
-          <a href="./src/components/image.html" id="image-link" class="text-color-white gutter-small text-decoration-none"
+          <a
+            href="./image.html"
+            id="image-link"
+            class="text-color-white gutter-small text-decoration-none"
             >Image</a
           >
         </div>
         <div class="ui-sideNav-item">
-          <a href="./src/components/input.html" id="input-link" class="text-color-white gutter-small text-decoration-none"
+          <a
+            href="./input.html"
+            id="input-link"
+            class="text-color-white gutter-small text-decoration-none"
             >Input</a
           >
         </div>
@@ -89,7 +116,7 @@
       </div>
     </div>
     <div class="ui-container flex-col">
-    <div class="ui-topNav flex-dir-row heading-large gutter-medium">
+      <div class="ui-topNav flex-dir-row heading-large gutter-medium">
         <i
           class="fas fa-bars ui-menu-icon text-color-white"
           onclick="openSideNav()"
@@ -98,29 +125,12 @@
         <div class="ui-icons flex-align-right text-medium text-color-white">
           <i class="fab fa-github"></i>
           <span>SourceCode</span>
-        </div> 
-    </div>
-    <div class="ui-body">
-      <section id="ui-intro-content" class="ui-intro-content flex-dir-row gutter-large">
-        <div class="ui-content">
-          <h2 class="text-large">
-          Develop swift, <br />responsive<br />apps with<br /> Cache UI
-          </h2>
-          <p class="text-medium">
-          It has well structured components and <br />documentation that helps
-          developers to develop <br />applications with less time and more
-          quality.
-          </p>
-          <a href="./src/usage.html" class="link-basic-btn gutter-small text-medium"
-          onclick="openSideNav()">Get Started</a
-          >
         </div>
-        <div class="ui-media">
-          <img src="assets/happy-news.svg"></img>
-        </div>
-      </section>
+      </div>
+      <div class="ui-body">
+        <section id="ui-input-component">input Component</section>
+      </div>
     </div>
-  </div>
-    <script src="./js/script.js"></script>
+    <script src="../../js/script.js"></script>
   </body>
 </html>
