@@ -33,7 +33,7 @@ p {
   background-color: var(--primary--color);
   color: var(--text--primary--color);
   border-radius: 20px;
-  width: 9rem;
+  width: fit-content;
 }
 .text-decoration-none {
   text-decoration: none;
@@ -55,3 +55,7 @@ p {
   overflow: hidden;
   z-index: -1;
 }
+/* .component-heading {
+}
+.component-sub-heading {
+} */

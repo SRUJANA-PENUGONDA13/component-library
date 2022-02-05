@@ -14,3 +14,26 @@
 
 /* Media Queries */
 @import url("./utils/mediaQueries.css");
+
+/* Components */
+
+/* Avatar */
+@import url("./components/avatar.css");
+
+/* Alert */
+@import url("./components/alert.css");
+
+/* Badge */
+@import url("./components/badge.css");
+
+/* Button */
+@import url("./components/button.css");
+
+/* card */
+@import url("./components/card.css");
+
+/* image */
+@import url("./components/image.css");
+
+/* input */
+@import url("./components/input.css");

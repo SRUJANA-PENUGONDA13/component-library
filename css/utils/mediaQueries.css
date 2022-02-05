@@ -6,6 +6,9 @@
   .ui-intro-content {
     padding-left: 2rem;
   }
+  .ui-link-basic-btn {
+    width: 145px !important;
+  }
 }
 @media only screen and (min-width: 600px) {
   .ui-sideNav-icon {
