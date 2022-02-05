@@ -1,6 +1,7 @@
 .ui-topNav {
   position: fixed;
   width: 100%;
+  z-index: 1;
   background-color: var(--primary--color);
 }
 .ui-body {

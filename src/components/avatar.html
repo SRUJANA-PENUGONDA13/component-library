@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../../css/style.css" />
-
+    <script src="../../js/script.js"></script>
     <title>Cache UI</title>
   </head>
   <body>
@@ -141,13 +141,62 @@
           <div class="component-heading">
             <h3 class="text-large">Avatar</h3>
           </div>
+          <div class="component-usage flex-dir-col flex-gap-s">
+            <p class="ui-sub-content text-medium">
+              To use avatar component itself in your application import the following css link in the head tag of your HTML document or in your CSS file.
+            </p>
+            <iframe class="code-snippet gutter-medium"
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2540import%2520url%28%27https%253A%252F%252Fcache-ui.netlify.app%252Fcss%252Fcomponents%252Favatar.css%27%29%253B%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fcache-ui.netlify.app%252Fcss%252Fcomponents%252Favatar.css%2522%253E"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
           <div class="component-sub-heading">
             <h4 class="text-medium">Standard Avatar</h4>
           </div>
-          <div class="component-body flex-dir-col"></div>
+          <div class="component-body flex-dir-col flex-gap-s">
+            <div class="avatar-container flex-dir-row gutter-medium flex-gap-m">
+              <img
+                class="avatar avatar-xl"
+                src="../../assets/girl-avatar.svg"
+                alt="avatar"
+              />
+              <img
+                class="avatar avatar-lg"
+                src="../../assets/girl-avatar.svg"
+                alt="avatar"
+              />
+              <img
+                class="avatar avatar-std"
+                src="../../assets/girl-avatar.svg"
+                alt="avatar"
+              />
+              <img
+                class="avatar avatar-sm"
+                src="../../assets/girl-avatar.svg"
+                alt="avatar"
+              />
+              <img
+                class="avatar avatar-xs"
+                src="../../assets/girl-avatar.svg"
+                alt="avatar"
+              />
+            </div>
+            <div class="component-content">
+              <p class="ui-sub-content text-medium">
+                The avatar component has 5 sizes, avatar-xl (4em), avatar-lg
+                (3em), avatar-std (2em) avatar-sm (1.5em), and avatar-xs (1em).
+                Make sure you have to update avatar-image with your desired one.
+              </p>
+            </div>
+              <iframe
+            class="code-snippet gutter-medium"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cimg%2520class%253D%2522avatar%2520avatar-xl%2522%2520src%253D%2522..%252F..%252Fassets%252Fgirl-avatar.svg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%253Cimg%2520class%253D%2522avatar%2520avatar-lg%2522%2520src%253D%2522..%252F..%252Fassets%252Fgirl-avatar.svg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%253Cimg%2520class%253D%2522avatar%2520avatar-std%2522%2520src%253D%2522..%252F..%252Fassets%252Fgirl-avatar.svg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%253Cimg%2520class%253D%2522avatar%2520avatar-sm%2522%2520src%253D%2522..%252F..%252Fassets%252Fgirl-avatar.svg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E%250A%2520%253Cimg%2520class%253D%2522avatar%2520avatar-xs%2522%2520src%253D%2522..%252F..%252Fassets%252Fgirl-avatar.svg%2522%2520alt%253D%2522avatar%2522%2520%252F%253E"
+            sandbox="allow-scripts allow-same-origin"
+          > 
+          </div>
         </section>
       </div>
     </div>
-    <script src="../../js/script.js"></script>
+   
   </body>
 </html>

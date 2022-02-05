@@ -1,0 +1,19 @@
+.avatar-xl {
+  height: 4em;
+}
+.avatar-lg {
+  height: 3rem;
+}
+.avatar-std {
+  height: 2rem;
+}
+.avatar-sm {
+  height: 1.5rem;
+}
+.avatar-xs {
+  height: 1rem;
+}
+.avatar-container {
+  align-items: flex-end;
+  width: fit-content;
+}

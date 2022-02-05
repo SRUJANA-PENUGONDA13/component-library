@@ -1,0 +1,24 @@
+.circle {
+  position: absolute;
+  padding: 0.3rem;
+  border-radius: 50%;
+  border: 1px solid var(--secodary--color);
+}
+.badge {
+  position: relative;
+}
+.badge-top-left {
+  top: -14px;
+  left: -14px;
+}
+.badge-top-right {
+  top: -5px;
+  right: -10px;
+}
+.badge-bottom-right {
+  bottom: -8px;
+  right: -8px;
+}
+.badge-container {
+  flex-wrap: wrap;
+}
