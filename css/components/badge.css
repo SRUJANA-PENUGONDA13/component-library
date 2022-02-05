@@ -1,3 +1,8 @@
+/* Generic Selectors */
+@import url("../utils/genericSelectors.css");
+/* Avatar */
+@import url("./avatar.css");
+
 .circle {
   position: absolute;
   padding: 0.3rem;
@@ -13,11 +18,11 @@
 }
 .badge-pos-top-right {
   top: -5px;
-  right: -10px;
+  right: -5px;
 }
 .badge-pos-bottom-right {
-  bottom: -8px;
-  right: -8px;
+  bottom: -1px;
+  right: -5px;
 }
 .badge-container {
   flex-wrap: wrap;

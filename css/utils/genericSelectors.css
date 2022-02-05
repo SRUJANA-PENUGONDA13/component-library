@@ -66,6 +66,9 @@ p {
 .bgc-blue {
   background-color: var(--primary--color);
 }
+.bgc-brown {
+  background-color: var(--back-ground-color);
+}
 .text-color-white {
   color: var(--text--primary--color);
 }
