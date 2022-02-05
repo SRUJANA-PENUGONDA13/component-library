@@ -7,15 +7,15 @@
 .badge {
   position: relative;
 }
-.badge-top-left {
+.badge-pos-top-left {
   top: -14px;
   left: -14px;
 }
-.badge-top-right {
+.badge-pos-top-right {
   top: -5px;
   right: -10px;
 }
-.badge-bottom-right {
+.badge-pos-bottom-right {
   bottom: -8px;
   right: -8px;
 }
