@@ -2,7 +2,6 @@
   position: fixed;
   width: 100%;
   background-color: var(--primary--color);
-  gap: 3rem;
 }
 .ui-body {
   padding-top: 100px;
@@ -22,9 +21,6 @@
 .ui-intro-content {
   justify-content: space-evenly;
   flex-wrap: wrap;
-}
-.ui-content {
-  gap: 2rem;
 }
 .ui-sideNav-logo {
   border: 1px solid;

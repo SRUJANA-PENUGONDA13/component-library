@@ -28,6 +28,15 @@ p {
   margin: auto;
   margin-right: 0px;
 }
+.flex-gap-s {
+  gap: 1rem;
+}
+.flex-gap-m {
+  gap: 2rem;
+}
+.flex-gap-l {
+  gap: 3rem;
+}
 .ui-link-basic-btn {
   text-decoration: none;
   background-color: var(--primary--color);
@@ -55,7 +64,3 @@ p {
   overflow: hidden;
   z-index: -1;
 }
-/* .component-heading {
-}
-.component-sub-heading {
-} */
