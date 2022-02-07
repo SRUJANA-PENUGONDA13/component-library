@@ -58,7 +58,7 @@ p {
 }
 .code-snippet {
   height: 300px;
-  width: 80%;
+  width: 600px;
   border: 0;
   transform: scale(1);
   overflow: hidden;
