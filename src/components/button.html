@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../../css/style.css" />
-
+    <script src="../../js/script.js"></script>
     <title>Cache UI</title>
   </head>
   <body>
@@ -141,11 +141,117 @@
           <div class="component-heading">
             <h3 class="text-large">Button</h3>
           </div>
-          <div class="component-sub-heading text-medium"></div>
-          <div class="component-body flex-dir-col"></div>
+          <div class="component-usage flex-dir-col flex-gap-s">
+            <p class="ui-sub-content text-medium">
+              To use button component itself in your application import the
+              following css link in the head tag of your HTML document or in
+              your CSS file.
+            </p>
+            <iframe
+              class="code-snippet gutter-medium"
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2540import%2520url%28%27https%253A%252F%252Fcache-ui.netlify.app%252Fcss%252Fcomponents%252Falert.css%27%29%253B%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fcache-ui.netlify.app%252Fcss%252Fcomponents%252Fbutton.css%2522%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="component-sub-heading text-medium">
+            <b>Solid Buttons</b>
+          </div>
+          <div class="component-body flex-dir-col">
+            <div class="button-container flex-dir-row flex-gap-m gutter-medium">
+              <button class="btn basic-btn"><b>Basic</b></button>
+              <button class="btn primary-btn"><b>Primary</b></button>
+              <button class="btn danger-btn"><b>Danger</b></button>
+            </div>
+            <div class="component-content">
+              <p class="ui-sub-content text-medium">
+                Solid buttons mainly of three types namely basic, primary and
+                danger.
+              </p>
+            </div>
+            <iframe
+              class="code-snippet gutter-medium"
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520basic-btn%2522%253E%253Cb%253EBasic%253C%252Fb%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253E%253Cb%253EPrimary%253C%252Fb%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520danger-btn%2522%253E%253Cb%253EDanger%253C%252Fb%253E%253C%252Fbutton%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="component-sub-heading text-medium">
+            <b>Icon Buttons</b>
+          </div>
+          <div class="component-body flex-dir-col">
+            <div class="button-container flex-dir-row flex-gap-m gutter-medium">
+              <button class="btn-icon">
+                <i class="fas fa-share-alt fa-2x" aria-hidden="false"></i>
+              </button>
+              <button class="btn-icon">
+                <i class="far fa-heart fa-2x"></i>
+              </button>
+            </div>
+            <div class="component-content">
+              <p class="ui-sub-content text-medium">
+                Icon buttons we represted here are like and share buttons.
+              </p>
+            </div>
+            <iframe
+              class="code-snippet gutter-medium"
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-icon%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520fa-2x%2522%2520aria-hidden%253D%2522false%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="component-sub-heading text-medium">
+            <b>Link Buttons</b>
+          </div>
+          <div class="component-body flex-dir-col">
+            <div class="button-container flex-dir-row flex-gap-m gutter-medium">
+              <a role="button" class="btn primary-btn link-btn" href="#">
+                Primary</a
+              >
+              <a role="button" class="btn danger-btn link-btn" href="#"
+                >Danger</a
+              >
+            </div>
+            <div class="component-content">
+              <p class="ui-sub-content text-medium">
+                Link buttons we represted here are primary and secondary link
+                buttons.
+              </p>
+            </div>
+            <iframe
+              class="code-snippet gutter-medium"
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Ca%2520role%253D%2522button%2522%2520class%253D%2522btn%2520primary-btn%2520link-btn%2522%2520href%253D%2522%2523%2522%253EPrimary%253C%252Fa%253E%250A%253Ca%2520role%253D%2522button%2522%2520class%253D%2522btn%2520danger-btn%2520link-btn%2522%2520href%253D%2522%2523%2522%253EDanger%253C%252Fa%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="component-sub-heading text-medium">
+            <b>Floating Buttons</b>
+          </div>
+          <div class="component-body flex-dir-col">
+            <div class="button-container flex-dir-row flex-gap-m gutter-medium">
+              <button class="btn-icon floating-btn">
+                <i class="fas fa-plus fa-2x" aria-hidden="false"></i>
+              </button>
+              <button class="btn-icon floating-btn">
+                <i class="fas fa-paper-plane fa-2x"></i>
+              </button>
+            </div>
+            <div class="component-content">
+              <p class="ui-sub-content text-medium">
+                Floating buttons we represted here are plus and paper plane send
+                buttons
+              </p>
+            </div>
+            <iframe
+              class="code-snippet gutter-medium"
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn-icon%2520floating-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-plus%2520fa-2x%2522%2520aria-hidden%253D%2522false%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn-icon%2520floating-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2520fa-2x%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </section>
       </div>
     </div>
-    <script src="../../js/script.js"></script>
   </body>
 </html>
