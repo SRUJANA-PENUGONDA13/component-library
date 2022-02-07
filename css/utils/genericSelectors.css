@@ -72,6 +72,3 @@ p {
 .text-color-white {
   color: var(--text--primary--color);
 }
-*::-webkit-scrollbar {
-  width: 2px;
-}
