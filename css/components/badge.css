@@ -1,0 +1,30 @@
+/* Generic Selectors */
+@import url("../utils/genericSelectors.css");
+/* Avatar */
+@import url("./avatar.css");
+
+.circle {
+  position: absolute;
+  padding: 0.3rem;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  border: 1px solid var(--secodary--color);
+}
+.badge {
+  position: relative;
+}
+.badge-pos-top-left {
+  top: -14px;
+  left: -14px;
+}
+.badge-pos-top-right {
+  top: -5px;
+  right: -5px;
+}
+.badge-pos-bottom-right {
+  bottom: -1px;
+  right: -5px;
+}
+.badge-container {
+  flex-wrap: wrap;
+}

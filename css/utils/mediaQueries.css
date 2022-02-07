@@ -3,15 +3,18 @@
   .ui-intro-content {
     padding-top: 3rem;
   }
-  .ui-intro-content {
-    padding-left: 2rem;
-  }
   .ui-link-basic-btn {
     width: 145px !important;
   }
+  .ui-sideNav {
+    visibility: hidden;
+  }
+  .ui-body {
+    margin-left: 2rem !important;
+  }
 }
 @media only screen and (min-width: 600px) {
-  .ui-sideNav-icon {
-    display: none;
+  .ui-sideNav {
+    visibility: visible;
   }
 }
