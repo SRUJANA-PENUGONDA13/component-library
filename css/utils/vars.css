@@ -3,4 +3,10 @@
   --secondary--color: #43434d; /* /#f2f2f2 / #494957/#43434d */
   --text--primary--color: white;
   --back-ground-color: brown;
+  --primary-alert: #cfe2ff;
+  --secondary-alert: #e2e3e5;
+  --success-alert: #d1e7dd;
+  --danger-alert: #f8d7da;
+  --warning-alert: #fff3cd;
+  --info-alert: #cff4fc;
 }
