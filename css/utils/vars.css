@@ -3,4 +3,18 @@
   --secondary--color: #43434d; /* /#f2f2f2 / #494957/#43434d */
   --text--primary--color: white;
   --back-ground-color: brown;
+  --primary-alert: #cfe2ff;
+  --secondary-alert: #e2e3e5;
+  --success-alert: #d1e7dd;
+  --danger-alert: #f8d7da;
+  --warning-alert: #fff3cd;
+  --info-alert: #cff4fc;
+  --btn-primary: #337ab7;
+  --btn-danger: #d9534f;
+  --border-primary: #2a7fff;
+  --border-secondary: #919191;
+  --border-success: #00eb81;
+  --border-danger: #ff5362;
+  --border-warning: #9e7c0e;
+  --border-info: #29d8ff;
 }
