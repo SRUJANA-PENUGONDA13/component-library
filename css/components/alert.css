@@ -5,31 +5,31 @@
 }
 .alert-primary {
   background-color: var(--primary-alert);
-  border: 1px solid #2a7fff;
+  border: 1px solid var(--border-primary);
   color: var(--primary--color);
 }
 .alert-secondary {
   background-color: var(--secondary-alert);
-  border: 1px solid #919191;
+  border: 1px solid var(--border-secondary);
   color: var(--primary--color);
 }
 .alert-success {
   background-color: var(--success-alert);
-  border: 1px solid #00eb81;
+  border: 1px solid var(--border-success);
   color: var(--primary--color);
 }
 .alert-danger {
   background-color: var(--danger-alert);
-  border: 1px solid #ff5362;
+  border: 1px solid var(--border-danger);
   color: var(--primary--color);
 }
 .alert-warning {
   background-color: var(--warning-alert);
-  border: 1px solid #9e7c0e;
+  border: 1px solid var(--border-warning);
   color: var(--primary--color);
 }
 .alert-info {
   background-color: var(--info-alert);
-  border: 1px solid #29d8ff;
+  border: 1px solid var(--border-info);
   color: var(--primary--color);
 }

@@ -11,4 +11,10 @@
   --info-alert: #cff4fc;
   --btn-primary: #337ab7;
   --btn-danger: #d9534f;
+  --border-primary: #2a7fff;
+  --border-secondary: #919191;
+  --border-success: #00eb81;
+  --border-danger: #ff5362;
+  --border-warning: #9e7c0e;
+  --border-info: #29d8ff;
 }
