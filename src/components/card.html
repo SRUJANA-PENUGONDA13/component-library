@@ -141,8 +141,185 @@
           <div class="component-heading">
             <h3 class="text-large">Card</h3>
           </div>
-          <div class="component-sub-heading text-medium"></div>
-          <div class="component-body flex-dir-col"></div>
+          <div class="component-usage flex-dir-col flex-gap-s">
+            <p class="ui-sub-content text-medium">
+              To use card component itself in your application import the
+              following css link in the head tag of your HTML document or in
+              your CSS file.
+            </p>
+            <iframe
+              class="code-snippet gutter-medium"
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2540import%2520url%28%27https%253A%252F%252Fcache-ui.netlify.app%252Fcss%252Fcomponents%252Fcard.css%27%29%253B%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fcache-ui.netlify.app%252Fcss%252Fcomponents%252Fcard.css%2522%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <div class="component-sub-heading">
+            <h4 class="text-medium">Different types of cards</h4>
+          </div>
+          <div class="component-content">
+            <p class="ui-sub-content text-medium">
+              We have represented 5 types of cards namely Card with badge, Card
+              with dismiss, Card with text overlay, Text card, Horizontal card.
+              Include code snippets mentioned below for different types of cards
+              as per requirement of your applications.
+            </p>
+          </div>
+          <div class="component-body flex-dir-col flex-gap-s">
+            <div class="card-container flex-dir-col gutter-medium flex-gap-m">
+              <!-- Card with badge -->
+              <h4 class="text-medium">Card with badges</h4>
+              <div class="card badge-card">
+                <div class="img-content">
+                  <p class="text-badge">Trending</p>
+                  <img
+                    class="item-img"
+                    src="../../assets/SmartWatch.jpg"
+                    alt="Card Header Image"
+                  />
+                </div>
+                <div class="card-content">
+                  <h2 class="item-name">Boat Xtend Smartwatch</h2>
+                  <p class="item-desc">
+                    boAt Xtend Smartwatch with Alexa Built-in, 1.69”, Health
+                    Monitor and 14 sports mode.
+                  </p>
+                  <div class="prices">
+                    <span class="price"><b>₹2200</b></span>
+                    <span class="initial-price">3500</span>
+                    <span class="discount"><b>( 37% )</b></span>
+                  </div>
+                </div>
+                <button class="btn primary-btn add-to-cart">Add to cart</button>
+              </div>
+              <iframe
+                class="code-snippet gutter-medium"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520badge-card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522img-content%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522text-badge%2522%253ETrending%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522item-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252FSmartWatch.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Card%2520Header%2520Image%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522item-name%2522%253EBoat%2520Xtend%2520Smartwatch%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522item-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520boAt%2520Xtend%2520Smartwatch%2520with%2520Alexa%2520Built-in%252C%25201.69%25E2%2580%259D%252C%2520Health%2520Monitor%2520and%252014%250A%2520%2520%2520%2520%2520%2520sports%2520mode.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522prices%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%253Cb%253E%25E2%2582%25B92200%253C%252Fb%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522initial-price%2522%253E3500%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%253Cb%253E%28%252037%2525%2520%29%253C%252Fb%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2520add-to-cart%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+              <!-- Card with dismiss -->
+              <h4 class="text-medium">Card with dismiss</h4>
+              <div class="card dismiss-card">
+                <div class="img-content">
+                  <p class="text-badge">Trending</p>
+                  <p class="dismiss-btn">X</p>
+                  <img
+                    class="item-img"
+                    src="../../assets/SmartWatch.jpg"
+                    alt="Card Header Image"
+                  />
+                </div>
+                <div class="card-content">
+                  <h2 class="item-name">Boat Xtend Smartwatch</h2>
+                  <p class="item-desc">
+                    boAt Xtend Smartwatch with Alexa Built-in, 1.69”, Health
+                    Monitor and 14 sports mode.
+                  </p>
+                  <div class="prices">
+                    <span class="price"><b>₹2200</b></span>
+                    <span class="initial-price">3500</span>
+                    <span class="discount"><b>( 37% )</b></span>
+                  </div>
+                </div>
+                <button class="btn primary-btn add-to-cart">Add to cart</button>
+              </div>
+              <iframe
+                class="code-snippet gutter-medium"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520dismiss-card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522img-content%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522text-badge%2522%253ETrending%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522dismiss-btn%2522%253EX%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522item-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252FSmartWatch.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Card%2520Header%2520Image%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522item-name%2522%253EBoat%2520Xtend%2520Smartwatch%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522item-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520boAt%2520Xtend%2520Smartwatch%2520with%2520Alexa%2520Built-in%252C%25201.69%25E2%2580%259D%252C%2520Health%2520Monitor%2520and%252014%250A%2520%2520%2520%2520%2520%2520sports%2520mode.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522prices%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%253Cb%253E%25E2%2582%25B92200%253C%252Fb%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522initial-price%2522%253E3500%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%253Cb%253E%28%252037%2525%2520%29%253C%252Fb%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2520add-to-cart%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+              <!-- Card with text overlay -->
+              <h4 class="text-medium">Card with text overlay</h4>
+              <div class="card text-overlay-card">
+                <div class="img-content">
+                  <p class="text-badge">Trending</p>
+                  <p class="dismiss-btn">X</p>
+                  <p class="overlay-text"><b>Out of stock</b></p>
+                  <img
+                    class="item-img overlay-image"
+                    src="../../assets/SmartWatch.jpg"
+                    alt="Card Header Image"
+                  />
+                </div>
+                <div class="card-content">
+                  <h2 class="item-name">Boat Xtend Smartwatch</h2>
+                  <p class="item-desc">
+                    boAt Xtend Smartwatch with Alexa Built-in, 1.69”, Health
+                    Monitor and 14 sports mode.
+                  </p>
+                  <div class="prices">
+                    <span class="price"><b>₹2200</b></span>
+                    <span class="initial-price">3500</span>
+                    <span class="discount"><b>( 37% )</b></span>
+                  </div>
+                </div>
+                <button class="btn primary-btn add-to-cart">Add to cart</button>
+              </div>
+              <iframe
+                class="code-snippet gutter-medium"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520text-overlay-card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522img-content%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522text-badge%2522%253ETrending%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522dismiss-btn%2522%253EX%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522overlay-text%2522%253E%253Cb%253EOut%2520of%2520stock%253C%252Fb%253E%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522item-img%2520overlay-image%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252FSmartWatch.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Card%2520Header%2520Image%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522item-name%2522%253EBoat%2520Xtend%2520Smartwatch%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522item-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520boAt%2520Xtend%2520Smartwatch%2520with%2520Alexa%2520Built-in%252C%25201.69%25E2%2580%259D%252C%2520Health%2520Monitor%2520and%252014%250A%2520%2520%2520%2520%2520%2520sports%2520mode.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522prices%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%253Cb%253E%25E2%2582%25B92200%253C%252Fb%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522initial-price%2522%253E3500%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%253Cb%253E%28%252037%2525%2520%29%253C%252Fb%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2520add-to-cart%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+              <!-- Card with text -->
+              <h4 class="text-medium">Text Card</h4>
+              <div class="card text-card">
+                <div class="card-content">
+                  <h2 class="item-name">Boat Xtend Smartwatch</h2>
+                  <p class="item-desc">
+                    boAt Xtend Smartwatch with Alexa Built-in, 1.69”, Health
+                    Monitor and 14 sports mode.
+                  </p>
+                  <div class="prices">
+                    <span class="price"><b>₹2200</b></span>
+                    <span class="initial-price">3500</span>
+                    <span class="discount"><b>( 37% )</b></span>
+                  </div>
+                </div>
+                <button class="btn primary-btn add-to-cart">Add to cart</button>
+              </div>
+              <iframe
+                class="code-snippet gutter-medium"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520text-card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522item-name%2522%253EBoat%2520Xtend%2520Smartwatch%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522item-desc%2522%253E%250A%2520%2520%2520%2520%2520%2520boAt%2520Xtend%2520Smartwatch%2520with%2520Alexa%2520Built-in%252C%25201.69%25E2%2580%259D%252C%2520Health%2520Monitor%2520and%252014%250A%2520%2520%2520%2520%2520%2520sports%2520mode.%250A%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522prices%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%253Cb%253E%25E2%2582%25B92200%253C%252Fb%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522initial-price%2522%253E3500%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%253Cb%253E%28%252037%2525%2520%29%253C%252Fb%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2520add-to-cart%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+              <!-- Horizontal Card-->
+              <h4 class="text-medium">Horizontal Card</h4>
+              <div class="card horizontal-card">
+                <div class="img-content">
+                  <p class="text-badge">Trending</p>
+                  <img
+                    class="item-img"
+                    src="../../assets/SmartWatch.jpg"
+                    alt="Card Header Image"
+                  />
+                </div>
+                <div class="card-content">
+                  <h2 class="item-name">Boat Xtend Smartwatch</h2>
+                  <p class="item-desc">
+                    BoAt Xtend Smartwatch with best features.
+                  </p>
+                  <div class="prices">
+                    <span class="price"><b>₹2200</b></span>
+                    <span class="initial-price">3500</span>
+                    <span class="discount"><b>( 37% )</b></span>
+                  </div>
+                  <button class="btn primary-btn add-to-cart">
+                    Add to cart
+                  </button>
+                </div>
+              </div>
+              <iframe
+                class="code-snippet gutter-medium"
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520horizontal-card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522img-content%2522%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522text-badge%2522%253ETrending%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522item-img%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252FSmartWatch.jpg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522Card%2520Header%2520Image%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%253Ch2%2520class%253D%2522item-name%2522%253EBoat%2520Xtend%2520Smartwatch%253C%252Fh2%253E%250A%2520%2520%2520%2520%253Cp%2520class%253D%2522item-desc%2522%253EBoAt%2520Xtend%2520Smartwatch%2520with%2520best%2520features.%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522prices%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price%2522%253E%253Cb%253E%25E2%2582%25B92200%253C%252Fb%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522initial-price%2522%253E3500%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%253Cb%253E%28%252037%2525%2520%29%253C%252Fb%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520primary-btn%2520add-to-cart%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                sandbox="allow-scripts allow-same-origin"
+              >
+              </iframe>
+            </div>
+          </div>
         </section>
       </div>
     </div>
