@@ -1,26 +1,33 @@
 body {
   font-family: Spartan;
 }
+
 .heading-large {
   font-size: 2.5rem;
 }
+
 .heading-medium {
   font-size: 1rem;
 }
+
 .gutter-small {
   padding: 0.6rem;
 }
+
 .gutter-medium {
   padding: 1rem;
 }
+
 .gutter-large {
   padding: 2rem;
 }
+
 .text-medium {
   font-size: 1.5rem;
   letter-spacing: 0.03rem;
   line-height: 2.5rem;
 }
+
 .text-large {
   font-size: 2.5rem;
   letter-spacing: 0.05rem;

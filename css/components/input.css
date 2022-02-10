@@ -4,9 +4,11 @@
   border-radius: 10px;
   width: min-content;
 }
+
 .highliter {
   border: 2px solid var(--border-danger);
 }
+
 .text-highliter {
   color: var(--text--danger);
 }
