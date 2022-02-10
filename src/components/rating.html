@@ -144,12 +144,97 @@
       <div class="ui-body left-margin-section">
         <section class="ui-component flex-dir-col">
           <h3 class="component-heading text-large">Rating</h3>
-
-          <h4 class="component-sub-heading text-medium"></h4>
-          <div class="component-body flex-dir-col flex-gap-s"></div>
+          <div class="component-usage flex-dir-col flex-gap-s">
+            <p class="ui-sub-content text-medium">
+              To use rating component itself in your application import the
+              following css link in the head tag of your HTML document or in
+              your CSS file.
+            </p>
+            <iframe
+              class="code-snippet gutter-medium"
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2540import%2520url%28%27https%253A%252F%252Fcache-ui.netlify.app%252Fcss%252Fcomponents%252Frating.css%27%29%253B%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fcache-ui.netlify.app%252Fcss%252Fcomponents%252Frating.css%2522%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h4 class="component-sub-heading text-medium">Star Rating</h4>
+          <div class="component-body flex-dir-col flex-gap-s">
+            <div class="rating-container flex-dir-row gutter-medium flex-gap-m">
+              <svg
+                class="rating"
+                id="1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+                value="1"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                class="rating"
+                id="2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                class="rating"
+                id="3"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                class="rating"
+                id="4"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <svg
+                class="rating"
+                id="5"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+            </div>
+          </div>
+          <p class="component-content ui-sub-content text-medium">
+            Below code snippet represents only for one rating (one star).
+            Include multiple snippets if you want more than one rating as per
+            your requirement. Make sure you should keep js script in a folder
+            and include it's path in HTML file.
+          </p>
+          <iframe
+            class="code-snippet gutter-medium"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Csvg%250A%2520%2520class%253D%2522rating%2522%250A%2520%2520id%253D%25221%2522%250A%2520%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%250A%2520%2520viewBox%253D%25220%25200%252016%252016%2522%250A%2520%2520value%253D%25221%2522%250A%253E%250A%2520%2520%253Cpath%250A%2520%2520%2520%2520d%253D%2522M3.612%252015.443c-.386.198-.824-.149-.%250A%2520%2520%2520%2520746-.592l.83-4.73L.173%25206.765c-.329-.%250A%2520%2520%2520%2520314-.158-.888.283-.95l4.898-.696L7.538.%250A%2520%2520%2520%2520792c.197-.39.73-.39.927%25200l2.184%25204.327%25204.%250A%2520%2520%2520%2520898.696c.441.062.612.636.282.95l-3.522%25203.%250A%2520%2520%2520%2520356.83%25204.73c.078.443-.36.79-.746.592L8%252013.%250A%2520%2520%2520%2520187l-4.389%25202.256z%2522%250A%2520%2520%252F%253E%250A%253C%252Fsvg%253E"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+          <iframe
+            class="code-snippet gutter-medium"
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=const%2520ratings%2520%253D%2520document.querySelectorAll%28%2522.rating%2522%29%253B%250Afor%2520%28var%2520i%2520%253D%25200%253B%2520i%2520%253C%2520ratings.length%253B%2520i%252B%252B%29%2520%257B%250A%2520%2520let%2520rating%2520%253D%2520ratings%255Bi%255D%253B%250A%2520%2520let%2520index%2520%253D%2520i%253B%250A%2520%2520rating.addEventListener%28%2522click%2522%252C%2520%28%29%2520%253D%253E%2520%257B%250A%2520%2520%2520%2520for%2520%28var%2520j%2520%253D%25200%253B%2520j%2520%253C%253D%2520index%253B%2520j%252B%252B%29%2520%257B%250A%2520%2520%2520%2520%2520%2520ratings%255Bj%255D.style.fill%2520%253D%2520%2522yellow%2522%253B%250A%2520%2520%2520%2520%257D%250A%2520%2520%257D%29%253B%250A%257D%250A"
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
         </section>
       </div>
     </div>
     <script src="../../js/script.js"></script>
+    <script src="../../js/rating.js"></script>
   </body>
 </html>

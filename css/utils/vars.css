@@ -20,4 +20,9 @@
   --border-info: #29d8ff;
   --badge-color: #e67a00;
   --text-green: green;
+  --text-violet: #bb86fc;
+
+  /* rating */
+  --star-fill: yellow;
+  --light-gray: #d3d3d3;
 }
