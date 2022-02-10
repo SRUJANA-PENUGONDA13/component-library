@@ -4,9 +4,11 @@
   z-index: 1;
   background-color: var(--primary--color);
 }
+
 .ui-body {
   padding-top: 100px;
 }
+
 .ui-sideNav {
   z-index: 2;
   position: fixed;
@@ -14,6 +16,7 @@
   height: 100%;
   background-color: var(--secondary--color);
 }
+
 .ui-sideNav-icon {
   position: absolute;
   left: 200px;
@@ -23,6 +26,7 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
 .ui-sideNav-logo {
   border: 1px solid;
   height: 20px;
@@ -31,6 +35,7 @@
   font-weight: 800;
   background-color: #f2f2f2;
 }
+
 .ui-sideNav-items {
   margin-top: 1.5rem;
 }

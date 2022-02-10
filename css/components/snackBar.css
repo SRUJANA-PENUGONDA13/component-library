@@ -7,6 +7,7 @@
   background-color: var(--primary--color);
   color: var(--text--primary--color);
 }
+
 .snackbar-item a {
   color: var(--text-violet);
   text-decoration: none;

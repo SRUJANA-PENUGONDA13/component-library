@@ -1,6 +1,7 @@
 .card-container {
   align-items: center;
 }
+
 .card {
   width: 18rem;
   display: flex;
@@ -11,14 +12,17 @@
   gap: 1rem;
   padding: 0.6rem;
 }
+
 .item-img {
   height: 100%;
   width: 100%;
 }
+
 .horizontal-card {
   flex-direction: row;
   width: 24rem;
 }
+
 .text-badge {
   font-size: 1.5rem;
   background-color: var(--badge-color);
@@ -28,9 +32,11 @@
   position: absolute;
   top: 0px;
 }
+
 .cart-content {
   flex-direction: column;
 }
+
 .dismiss-btn {
   position: absolute;
   font-size: 1.5rem;
@@ -38,6 +44,7 @@
   top: 5px;
   color: black;
 }
+
 .overlay-text {
   position: absolute;
   font-size: 1.5rem;
@@ -45,21 +52,26 @@
   left: 6rem;
   color: var(--primary--color);
 }
+
 .item-desc,
 .item-name,
 .prices {
   padding: 0.6rem;
 }
+
 .prices {
   font-size: 1.5rem;
 }
+
 .initial-price {
   opacity: 0.5;
   text-decoration: line-through;
 }
+
 .discount {
   color: var(--text-green);
 }
+
 .overlay-image {
   opacity: 0.3;
 }
