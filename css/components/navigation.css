@@ -1,0 +1,17 @@
+.nav-body {
+  display: flex;
+  padding: 1rem;
+  color: var(--text--primary--color);
+  font-size: 1.5rem;
+  background-color: var(--secondary--color);
+}
+.nav-left-sec {
+  display: flex;
+  gap: 1rem;
+}
+.nav-right-sec {
+  display: flex;
+  margin-left: auto;
+  margin-right: 0;
+  gap: 3.5rem;
+}
