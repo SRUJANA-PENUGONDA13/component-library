@@ -1,0 +1,8 @@
+.image-responsive {
+  height: auto;
+  width: 100%;
+}
+
+.image-circular {
+  border-radius: 50%;
+}

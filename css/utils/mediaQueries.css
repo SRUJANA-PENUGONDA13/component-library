@@ -3,15 +3,19 @@
   .ui-intro-content {
     padding-top: 3rem;
   }
+
   .ui-link-basic-btn {
     width: 145px !important;
   }
+
   .ui-sideNav {
     visibility: hidden;
   }
+
   .ui-body {
     margin-left: 2rem !important;
   }
+
   .code-snippet {
     width: auto !important;
   }

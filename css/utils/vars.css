@@ -2,6 +2,7 @@
   --primary--color: #2f2e41;
   --secondary--color: #43434d; /* /#f2f2f2 / #494957/#43434d */
   --text--primary--color: white;
+  --text--danger: #ff5362;
   --back-ground-color: brown;
   --primary-alert: #cfe2ff;
   --secondary-alert: #e2e3e5;
@@ -17,4 +18,11 @@
   --border-danger: #ff5362;
   --border-warning: #9e7c0e;
   --border-info: #29d8ff;
+  --badge-color: #e67a00;
+  --text-green: green;
+  --text-violet: #bb86fc;
+
+  /* rating */
+  --star-fill: yellow;
+  --light-gray: #d3d3d3;
 }

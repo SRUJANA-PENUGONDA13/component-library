@@ -37,3 +37,12 @@
 
 /* input */
 @import url("./components/input.css");
+
+/* rating */
+@import url("./components/rating.css");
+
+/* snackBar */
+@import url("./components/snackBar.css");
+
+/* snackBar */
+@import url("./components/navigation.css");

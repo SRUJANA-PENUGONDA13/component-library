@@ -3,23 +3,29 @@
   color: var(--text--primary--color);
   padding: 0.6rem;
 }
+
 .basic-btn {
   color: var(--primary--color);
 }
+
 .primary-btn {
   background-color: var(--btn-primary);
 }
+
 .danger-btn {
   background-color: var(--btn-danger);
 }
+
 .btn-icon {
   border-radius: 50%;
   aspect-ratio: 1/1;
   padding: 0.6rem;
 }
+
 .link-btn {
   text-decoration: none;
 }
+
 .floating-btn:hover {
   background-color: var(--btn-primary);
 }

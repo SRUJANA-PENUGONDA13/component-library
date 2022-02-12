@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Srujana Penugonda" />
+    <meta name="title" content="Input Component" />
+    <meta name="keywords" content="HTML, CSS, Component library, UI" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -11,7 +14,6 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../../css/style.css" />
-
     <title>Cache UI</title>
   </head>
   <body>
@@ -28,7 +30,7 @@
         <i
           class="fas fa-times-circle ui-sideNav-icon text-medium"
           aria-hidden="true"
-          onClick="closeSideNav()"
+          onclick="closeSideNav()"
         ></i>
       </div>
       <div class="ui-sideNav-items text-medium text-color-white gutter-medium">
@@ -99,18 +101,24 @@
           >
         </div>
         <div class="ui-sideNav-item">
-          <a href="#" class="text-color-white gutter-small text-decoration-none"
-            >List</a
+          <a
+            href="./rating.html"
+            class="text-color-white gutter-small text-decoration-none"
+            >Rating</a
           >
         </div>
-        <div class="ui__sideNav__item">
-          <a href="#" class="text-color-white gutter-small text-decoration-none"
+        <div class="ui-sideNav-item">
+          <a
+            href="./navigation.html"
+            class="text-color-white gutter-small text-decoration-none"
             >Navigation</a
           >
         </div>
         <div class="ui-sideNav-item">
-          <a href="#" class="text-color-white gutter-small text-decoration-none"
-            >Toast</a
+          <a
+            href="./snackBar.html"
+            class="text-color-white gutter-small text-decoration-none"
+            >Snackbar</a
           >
         </div>
       </div>
@@ -138,11 +146,57 @@
       </div>
       <div class="ui-body left-margin-section">
         <section class="ui-component flex-dir-col">
-          <div class="component-heading">
-            <h3 class="text-large">Input</h3>
+          <h3 class="component-heading text-large">Input</h3>
+          <div class="component-usage flex-dir-col flex-gap-s">
+            <p class="ui-sub-content text-medium">
+              To use input component itself in your application import the
+              following css link in the head tag of your HTML document or in
+              your CSS file.
+            </p>
+            <iframe
+              class="code-snippet gutter-medium"
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2540import%2520url%28%27https%253A%252F%252Fcache-ui.netlify.app%252Fcss%252Fcomponents%252Finput.css%27%29%253B%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fcache-ui.netlify.app%252Fcss%252Fcomponents%252Finput.css%2522%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
           </div>
-          <div class="component-sub-heading text-medium"></div>
-          <div class="component-body flex-dir-col"></div>
+          <h4 class="component-sub-heading text-medium">
+            Different types of inputs
+          </h4>
+          <div class="component-body flex-dir-col flex-gap-s">
+            <div class="input-container flex-dir-col gutter-medium flex-gap-m">
+              <input
+                type="text"
+                class="input-field"
+                placeholder="Enter your text"
+              />
+              <input
+                type="text"
+                class="input-field"
+                placeholder="Enter your text"
+                disabled
+              />
+              <div class="validation-input">
+                <input
+                  type="text"
+                  class="input-field highliter"
+                  placeholder="Enter your text"
+                />
+                <p class="text-highliter">please provide valid input</p>
+              </div>
+            </div>
+            <p class="component-content ui-sub-content text-medium">
+              We represented three types of inputs namely generic input and
+              disabled input and validation with error message. Add below code
+              snippet as per your requirement to add inputs to your app.
+            </p>
+            <iframe
+              class="code-snippet gutter-medium"
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-field%2522%2520placeholder%253D%2522Enter%2520your%2520text%2522%2520%252F%253E%250A%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522input-field%2522%2520placeholder%253D%2522Enter%2520your%2520text%2522%2520disabled%2520%252F%253E%250A%253Cdiv%2520class%253D%2522validation-input%2522%253E%250A%2520%2520%253Cinput%250A%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520class%253D%2522input-field%2520highliter%2522%250A%2520%2520%2520%2520placeholder%253D%2522Enter%2520your%2520text%2522%250A%2520%2520%252F%253E%250A%2520%2520%253Cp%2520class%253D%2522text-highliter%2522%253Eplease%2520provide%2520valid%2520input%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
         </section>
       </div>
     </div>
