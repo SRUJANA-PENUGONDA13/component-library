@@ -1,5 +1,6 @@
 /* Generic Selectors */
 @import url("../utils/genericSelectors.css");
+
 /* Avatar */
 @import url("./avatar.css");
 
@@ -9,6 +10,8 @@
   border-radius: 50%;
   aspect-ratio: 1/1;
   border: 1px solid var(--secodary--color);
+  color: var(--text--primary--color);
+  background-color: var(--primary--color);
 }
 
 .badge {
@@ -32,4 +35,13 @@
 
 .badge-container {
   flex-wrap: wrap;
+}
+
+.action-btn {
+  color: var(--text--primary--color);
+  background-color: var(--primary--color);
+}
+
+.badge .avatar {
+  background-color: var(--primary--color);
 }

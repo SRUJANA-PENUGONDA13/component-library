@@ -23,6 +23,14 @@
   width: 24rem;
 }
 
+.img-content {
+  height: 12rem;
+}
+
+.horizontal-card .img-content {
+  height: 15rem;
+}
+
 .text-badge {
   font-size: 1.5rem;
   background-color: var(--badge-color);
