@@ -4,13 +4,19 @@ body {
   color: var(--primary--color);
 }
 
+*::-webkit-scrollbar {
+  width: 8px;
+  background-color: var(--light-gray);
+}
+
 * {
   box-sizing: border-box;
 }
-
+h5,
 h4,
 h3,
 h2,
+h1,
 p {
   margin: 0px;
   padding: 0px;
@@ -89,4 +95,60 @@ p {
 
 .text-color-white {
   color: var(--text--primary--color);
+}
+
+.heading-xl {
+  font-size: 4.5rem;
+}
+
+.heading-lg {
+  font-size: 4rem;
+}
+
+.heading-md {
+  font-size: 3rem;
+}
+
+.heading-sm {
+  font-size: 2rem;
+}
+
+.heading-xs {
+  font-size: 1rem;
+}
+
+.text-xl {
+  font-size: 3.5rem;
+}
+
+.text-lg {
+  font-size: 3rem;
+}
+
+.text-md {
+  font-size: 2.5rem;
+}
+
+.text-sm {
+  font-size: 2rem;
+}
+
+.text-xs {
+  font-size: 1rem;
+}
+
+.text-gray {
+  color: var(--light-gray);
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }

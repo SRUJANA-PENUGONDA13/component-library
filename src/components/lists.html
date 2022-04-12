@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Srujana Penugonda" />
+    <meta name="title" content="Navigation Component" />
+    <meta name="keywords" content="HTML, CSS, Component library, UI" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <title>Cache UI</title>
+  </head>
+  <body>
+    <div class="ui-sideNav gutter-medium">
+      <div class="ui-sideNav-header text-medium text-color-white">
+        <span class="ui-sideNav-logo gutter-small">C</span>
+        <span class="gutter-medium"
+          ><a
+            href="../../index.html"
+            class="text-color-white text-decoration-none"
+            >UI Docs</a
+          ></span
+        >
+        <i
+          class="fas fa-times-circle ui-sideNav-icon text-medium"
+          aria-hidden="true"
+          onclick="closeSideNav()"
+        ></i>
+      </div>
+      <div class="ui-sideNav-items text-medium text-color-white gutter-medium">
+        <div class="ui-sideNav-item"><h4>Getting Started</h4></div>
+        <div class="ui-sideNav-item">
+          <a
+            href="../../src/usage.html"
+            id="usage-link"
+            class="text-color-white gutter-small text-decoration-none"
+            >Usage</a
+          >
+        </div>
+        <div class="ui-sideNav-item"><h4>Components</h4></div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./avatar.html"
+            id="avatar-link"
+            class="text-color-white gutter-small text-decoration-none"
+            >Avatar</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./alert.html"
+            id="alert-link"
+            class="text-color-white gutter-small text-decoration-none"
+            >Alert</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./badge.html"
+            id="badge-link"
+            class="text-color-white gutter-small text-decoration-none"
+            >Badge</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./button.html"
+            id="button-link"
+            class="text-color-white gutter-small text-decoration-none"
+            >Button</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./card.html"
+            id="card-link"
+            class="text-color-white gutter-small text-decoration-none"
+            >Card</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./image.html"
+            id="image-link"
+            class="text-color-white gutter-small text-decoration-none"
+            >Image</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./input.html"
+            id="input-link"
+            class="text-color-white gutter-small text-decoration-none"
+            >Input</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./rating.html"
+            class="text-color-white gutter-small text-decoration-none"
+            >Rating</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./navigation.html"
+            class="text-color-white gutter-small text-decoration-none"
+            >Navigation</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./snackBar.html"
+            class="text-color-white gutter-small text-decoration-none"
+            >Snackbar</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./lists.html"
+            class="text-color-white gutter-small text-decoration-none"
+            >Lists</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./typography.html"
+            class="text-color-white gutter-small text-decoration-none"
+            >Typography</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="ui-container flex-col">
+      <div
+        class="ui-topNav flex-dir-row flex-gap-l heading-large gutter-medium"
+      >
+        <i
+          class="fas fa-bars ui-menu-icon text-color-white"
+          onclick="openSideNav()"
+        ></i>
+        <div class="ui-title text-color-white">Cache UI</div>
+        <div class="ui-icons flex-align-right text-medium text-color-white">
+          <i class="fab fa-github"></i>
+          <span
+            ><a
+              href="https://github.com/SRUJANA-PENUGONDA13/component-library"
+              target="_blank"
+              class="text-color-white text-decoration-none"
+              >Source Code</a
+            ></span
+          >
+        </div>
+      </div>
+      <div class="ui-body left-margin-section">
+        <section class="ui-component flex-dir-col">
+          <h3 class="component-heading text-large">Lists</h3>
+          <p class="ui-sub-content text-medium">
+            List groups are a flexible component for displaying a series of
+            content like notifications drawer.
+          </p>
+          <h4 class="component-sub-heading text-medium">Spaced List</h4>
+          <div class="component-body flex-dir-col flex-gap-s">
+            <ul class="list-container">
+              <li>
+                <div class="list spaced-list flex-dir-row flex-gap-s">
+                  <img
+                    class="avatar avatar-lg"
+                    src="../../assets/girl-avatar.svg"
+                    alt="avatar"
+                  />
+                  <div class="list-content flex-dir-col">
+                    <h3>Srujana</h3>
+                    <p>Last seen watching Arrested Development just now.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="list spaced-list flex-dir-row flex-gap-s">
+                  <img
+                    class="avatar avatar-lg"
+                    src="../../assets/girl-avatar.svg"
+                    alt="avatar"
+                  />
+                  <div class="list-content flex-dir-col">
+                    <h3>Srujana</h3>
+                    <p>Last seen watching Arrested Development just now.</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="list spaced-list flex-dir-row flex-gap-s">
+                  <img
+                    class="avatar avatar-lg"
+                    src="../../assets/girl-avatar.svg"
+                    alt="avatar"
+                  />
+                  <div class="list-content flex-dir-col">
+                    <h3>Srujana</h3>
+                    <p>Last seen watching Arrested Development just now.</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <iframe
+              class="code-snippet gutter-medium"
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-container%2522%253E%250A%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list%2520spaced-list%2520flex-dir-row%2520flex-gap-s%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520avatar-lg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252Fgirl-avatar.svg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-content%2520flex-dir-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ESrujana%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELast%2520seen%2520watching%2520Arrested%2520Development%2520just%2520now.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fli%253E%250A%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list%2520spaced-list%2520flex-dir-row%2520flex-gap-s%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520avatar-lg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252Fgirl-avatar.svg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-content%2520flex-dir-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ESrujana%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELast%2520seen%2520watching%2520Arrested%2520Development%2520just%2520now.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fli%253E%250A%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list%2520spaced-list%2520flex-dir-row%2520flex-gap-s%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520avatar-lg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252Fgirl-avatar.svg%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-content%2520flex-dir-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ESrujana%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELast%2520seen%2520watching%2520Arrested%2520Development%2520just%2520now.%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fli%253E%250A%253C%252Ful%253E%253B%250A"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h4 class="component-sub-heading text-medium">Stacked List</h4>
+          <div class="component-body flex-dir-col flex-gap-s">
+            <ul class="list-container flex-dir-col">
+              <div class="list stacked-list flex-dir-row flex-gap-s">
+                <img
+                  class="avatar avatar-lg"
+                  src="../../assets/girl-avatar.svg"
+                  alt="avatar"
+                />
+                <div class="list-content flex-dir-col">
+                  <h3>Srujana</h3>
+                  <p>Last seen watching Arrested Development just now.</p>
+                </div>
+              </div>
+              <div class="list stacked-list flex-dir-row flex-gap-s">
+                <img
+                  class="avatar avatar-lg"
+                  src="../../assets/girl-avatar.svg"
+                  alt="avatar"
+                />
+                <div class="list-content flex-dir-col">
+                  <h3>Srujana</h3>
+                  <p>Last seen watching Arrested Development just now.</p>
+                </div>
+              </div>
+              <div class="list stacked-list flex-dir-row flex-gap-s">
+                <img
+                  class="avatar avatar-lg"
+                  src="../../assets/girl-avatar.svg"
+                  alt="avatar"
+                />
+                <div class="list-content flex-dir-col">
+                  <h3>Srujana</h3>
+                  <p>Last seen watching Arrested Development just now.</p>
+                </div>
+              </div>
+            </ul>
+            <iframe
+              class="code-snippet gutter-medium"
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list-container%2520flex-dir-col%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522list%2520stacked-list%2520flex-dir-row%2520flex-gap-s%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520avatar-lg%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252Fgirl-avatar.svg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-content%2520flex-dir-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253ESrujana%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ELast%2520seen%2520watching%2520Arrested%2520Development%2520just%2520now.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522list%2520stacked-list%2520flex-dir-row%2520flex-gap-s%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520avatar-lg%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252Fgirl-avatar.svg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-content%2520flex-dir-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253ESrujana%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ELast%2520seen%2520watching%2520Arrested%2520Development%2520just%2520now.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522list%2520stacked-list%2520flex-dir-row%2520flex-gap-s%2522%253E%250A%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520class%253D%2522avatar%2520avatar-lg%2522%250A%2520%2520%2520%2520%2520%2520src%253D%2522..%252F..%252Fassets%252Fgirl-avatar.svg%2522%250A%2520%2520%2520%2520%2520%2520alt%253D%2522avatar%2522%250A%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522list-content%2520flex-dir-col%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253ESrujana%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253ELast%2520seen%2520watching%2520Arrested%2520Development%2520just%2520now.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Ful%253E%253B%250A"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="../../js/script.js"></script>
+  </body>
+</html>
