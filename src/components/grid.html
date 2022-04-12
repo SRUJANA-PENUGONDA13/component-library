@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Srujana Penugonda" />
+    <meta name="title" content="Navigation Component" />
+    <meta name="keywords" content="HTML, CSS, Component library, UI" />
+    <link rel="stylesheet" href="../../css/style.css" />
+    <title>Cache UI</title>
+  </head>
+  <body>
+    <div class="ui-sideNav gutter-medium">
+      <div class="ui-sideNav-header text-medium text-color-white">
+        <span class="ui-sideNav-logo gutter-small">C</span>
+        <span class="gutter-medium"
+          ><a
+            href="../../index.html"
+            class="text-color-white text-decoration-none"
+            >UI Docs</a
+          ></span
+        >
+        <i
+          class="fas fa-times-circle ui-sideNav-icon text-medium"
+          aria-hidden="true"
+          onclick="closeSideNav()"
+        ></i>
+      </div>
+      <div class="ui-sideNav-items text-medium text-color-white gutter-medium">
+        <div class="ui-sideNav-item"><h4>Getting Started</h4></div>
+        <div class="ui-sideNav-item">
+          <a
+            href="../../src/usage.html"
+            id="usage-link"
+            class="text-color-white gutter-small text-decoration-none"
+            >Usage</a
+          >
+        </div>
+        <div class="ui-sideNav-item"><h4>Components</h4></div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./avatar.html"
+            id="avatar-link"
+            class="text-color-white gutter-small text-decoration-none"
+            >Avatar</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./alert.html"
+            id="alert-link"
+            class="text-color-white gutter-small text-decoration-none"
+            >Alert</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./badge.html"
+            id="badge-link"
+            class="text-color-white gutter-small text-decoration-none"
+            >Badge</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./button.html"
+            id="button-link"
+            class="text-color-white gutter-small text-decoration-none"
+            >Button</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./card.html"
+            id="card-link"
+            class="text-color-white gutter-small text-decoration-none"
+            >Card</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./image.html"
+            id="image-link"
+            class="text-color-white gutter-small text-decoration-none"
+            >Image</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./input.html"
+            id="input-link"
+            class="text-color-white gutter-small text-decoration-none"
+            >Input</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./rating.html"
+            class="text-color-white gutter-small text-decoration-none"
+            >Rating</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./navigation.html"
+            class="text-color-white gutter-small text-decoration-none"
+            >Navigation</a
+          >
+        </div>
+
+        <div class="ui-sideNav-item">
+          <a
+            href="./snackBar.html"
+            class="text-color-white gutter-small text-decoration-none"
+            >Snackbar</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./lists.html"
+            class="text-color-white gutter-small text-decoration-none"
+            >Lists</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./typography.html"
+            class="text-color-white gutter-small text-decoration-none"
+            >Typography</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./modal.html"
+            class="text-color-white gutter-small text-decoration-none"
+            >Modal</a
+          >
+        </div>
+        <div class="ui-sideNav-item">
+          <a
+            href="./grid.html"
+            class="text-color-white gutter-small text-decoration-none"
+            >Grid</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="ui-container flex-col">
+      <div
+        class="ui-topNav flex-dir-row flex-gap-l heading-large gutter-medium"
+      >
+        <i
+          class="fas fa-bars ui-menu-icon text-color-white"
+          onclick="openSideNav()"
+        ></i>
+        <div class="ui-title text-color-white">Cache UI</div>
+        <div class="ui-icons flex-align-right text-medium text-color-white">
+          <i class="fab fa-github"></i>
+          <span
+            ><a
+              href="https://github.com/SRUJANA-PENUGONDA13/component-library"
+              target="_blank"
+              class="text-color-white text-decoration-none"
+              >Source Code</a
+            ></span
+          >
+        </div>
+      </div>
+      <div class="ui-body left-margin-section">
+        <section class="ui-component flex-dir-col">
+          <h3 class="component-heading text-large">Grids</h3>
+          <p class="ui-sub-content text-medium">
+            List groups are a flexible component for displaying a series of
+            content like notifications drawer.
+          </p>
+          <h4 class="component-sub-heading text-medium">Grid-2</h4>
+          <div class="component-body flex-dir-col flex-gap-s">
+            <div class="grid grid-2">
+              <div class="grid-item">Item-1</div>
+              <div class="grid-item">Item-2</div>
+            </div>
+            <iframe
+              class="code-snippet gutter-medium"
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid%2520grid-2%2522%253E%250A%2509%253Cdiv%2520class%253D%2522grid-item%2522%253EItem-1%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253EItem-2%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <h4 class="component-sub-heading text-medium">Grid-3</h4>
+          <div class="component-body flex-dir-col flex-gap-s">
+            <div class="grid grid-3">
+              <div class="grid-item">Item-1</div>
+              <div class="grid-item">Item-2</div>
+              <div class="grid-item">Item-3</div>
+            </div>
+            <iframe
+              class="code-snippet gutter-medium"
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid%2520grid-3%2522%253E%250A%2509%253Cdiv%2520class%253D%2522grid-item%2522%253EItem-1%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253EItem-2%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253EItem-3%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="../../js/script.js"></script>
+  </body>
+</html>
