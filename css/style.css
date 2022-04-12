@@ -49,3 +49,9 @@
 
 /* list */
 @import url("./components/list.css");
+
+/* modal */
+@import url("./components/modal.css");
+
+/* grid */
+@import url("./components/grid.css");
