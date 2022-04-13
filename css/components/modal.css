@@ -1,0 +1,32 @@
+.modal-container {
+  box-shadow: var(--primary--color) 0px 4px 12px;
+  background-color: var(--modal-bg-color);
+  width: 25rem;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin: 1rem;
+}
+
+.action-btns {
+  justify-content: flex-end;
+}
+
+.modal-content {
+  font-size: 1.25rem;
+}
+
+#live-demo-btn {
+  width: fit-content;
+}
+
+#modal-wrapper {
+  top: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  background-color: var(--modal-shaded-bg);
+  height: 100%;
+  width: 100%;
+}
