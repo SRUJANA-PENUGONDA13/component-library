@@ -4,7 +4,7 @@ Develop swift, responsive apps with Cache UI <br />
 
 It has well structured components and documentation that helps developers to develop applications with less time and more quality.
 
-![version](https://img.shields.io/badge/version-v1-green)
+![version](https://img.shields.io/badge/version-v2-green)
 
 ![label](https://img.shields.io/badge/label-open--source-blue)
 
@@ -49,6 +49,9 @@ Open your favorite code editor and run locally!
 #### Rating
 #### Navigation (Simple)
 #### SnackBar
+
+#### (13/04 Changes)
+
 #### Text Utilities
   1. headings
   2. small text
